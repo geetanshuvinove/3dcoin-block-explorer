@@ -1,0 +1,33 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "./data",
+        "exec": "/usr/local/bin/3dcoind"
+      }
+    },
+  "insight-api": {
+    "disableRateLimiter": true,
+    "enableCache": true
+  },
+  "fee": {
+    "rpc": {
+      "user": "3dcoinrpc",
+      "pass": "123gfjkjHtbRde2s5kzdf233sa",
+      "host": "127.0.0.1",
+      "protocol": "http",
+      "port": 6694,
+      "allowip": "127.0.0.1"
+    }
+  }
+
+  }
+}

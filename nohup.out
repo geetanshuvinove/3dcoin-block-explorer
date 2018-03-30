@@ -1,0 +1,58 @@
+[2018-03-28T14:56:39.804Z] [34m[3minfo:[23m[39m Using config: /root/insight/secondNode/bitcore-node.json
+[2018-03-28T14:56:39.806Z] [34m[3minfo:[23m[39m Using network: livenet
+[2018-03-28T14:56:39.808Z] [34m[3minfo:[23m[39m Starting bitcoind
+[2018-03-28T14:56:39.810Z] [34m[3minfo:[23m[39m Using bitcoin config file: /root/insight/secondNode/data/bitcoin.conf
+[2018-03-28T14:56:39.814Z] [34m[3minfo:[23m[39m Starting bitcoin process
+[2018-03-28T14:56:39.850Z] [34m[3minfo:[23m[39m Bitcoin Height: 2854 Percentage: 100.00
+[2018-03-28T14:56:39.855Z] [34m[3minfo:[23m[39m Bitcoin Daemon Ready
+[2018-03-28T14:56:39.855Z] [34m[3minfo:[23m[39m Starting web
+[2018-03-28T14:56:39.865Z] [34m[3minfo:[23m[39m Starting insight-api
+[2018-03-28T14:56:39.866Z] [34m[3minfo:[23m[39m Starting insight-ui
+[2018-03-28T14:56:39.867Z] [34m[3minfo:[23m[39m Bitcore Node ready
+[2018-03-28T14:56:40.341Z] [33m[3mwarn:[23m[39m ZMQ connection delay: tcp://127.0.0.1:28332
+[2018-03-28T14:56:40.341Z] [34m[3minfo:[23m[39m ZMQ connected to: tcp://127.0.0.1:28332
+[2018-03-28T14:56:44.427Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: inv
+[2018-03-28T14:56:44.873Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.874Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.874Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.874Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.875Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.875Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.875Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.875Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+[2018-03-28T14:56:44.876Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 web socket subscribe: sync
+Error: Cannot obtain a lock on data directory /root/insight/secondNode/data. 3DCoin Core is probably already running.
+[2018-03-28T14:56:49.885Z] [33m[3mwarn:[23m[39m Bitcoin process unexpectedly exited with code: 1
+[2018-03-28T14:56:49.885Z] [33m[3mwarn:[23m[39m Restarting bitcoin child process in 5000ms
+[2018-03-28T14:56:51.689Z] [34m[3minfo:[23m[39m Bitcoin Height: 2855 Percentage: 100.00
+[2018-03-28T14:56:51.950Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 "GET /insight-api/block/0000000a170f4aeeb4e9f17a0a86cef66119499594b3cac1c5dfd098b78242cc" 200 578 18.705 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" 
+[2018-03-28T14:56:54.886Z] [34m[3minfo:[23m[39m Using bitcoin config file: /root/insight/secondNode/data/bitcoin.conf
+[2018-03-28T14:56:54.886Z] [34m[3minfo:[23m[39m Starting bitcoin process
+[2018-03-28T14:56:54.897Z] [33m[3mwarn:[23m[39m Bitcoin process restarted
+[2018-03-28T14:56:55.185Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 "GET /insight-api/block/0000000a170f4aeeb4e9f17a0a86cef66119499594b3cac1c5dfd098b78242cc" 304 - 6.378 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" 
+[2018-03-28T14:56:55.397Z] [33m[3mwarn:[23m[39m ZMQ connection delay: tcp://127.0.0.1:28332
+[2018-03-28T14:56:55.397Z] [34m[3minfo:[23m[39m ZMQ connected to: tcp://127.0.0.1:28332
+Error: Cannot obtain a lock on data directory /root/insight/secondNode/data. 3DCoin Core is probably already running.
+[2018-03-28T14:57:04.914Z] [33m[3mwarn:[23m[39m Bitcoin process unexpectedly exited with code: 1
+[2018-03-28T14:57:04.914Z] [33m[3mwarn:[23m[39m Restarting bitcoin child process in 5000ms
+[2018-03-28T14:57:08.803Z] [34m[3minfo:[23m[39m Bitcoin Height: 2856 Percentage: 100.00
+[2018-03-28T14:57:09.076Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 "GET /insight-api/block/00000006ad3472728f8398d9cab684c4db5b8cefaed46b0d1c6484e9dc4b450e" 200 578 7.618 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" 
+[2018-03-28T14:57:09.914Z] [34m[3minfo:[23m[39m Using bitcoin config file: /root/insight/secondNode/data/bitcoin.conf
+[2018-03-28T14:57:09.914Z] [34m[3minfo:[23m[39m Starting bitcoin process
+[2018-03-28T14:57:09.926Z] [33m[3mwarn:[23m[39m Bitcoin process restarted
+[2018-03-28T14:57:10.168Z] [34m[3minfo:[23m[39m ::ffff:197.207.218.66 "GET /insight-api/block/00000006ad3472728f8398d9cab684c4db5b8cefaed46b0d1c6484e9dc4b450e" 304 - 8.281 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" 
+[2018-03-28T14:57:10.425Z] [33m[3mwarn:[23m[39m ZMQ connection delay: tcp://127.0.0.1:28332
+[2018-03-28T14:57:10.426Z] [34m[3minfo:[23m[39m ZMQ connected to: tcp://127.0.0.1:28332
+[2018-03-28T14:57:10.464Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 "GET /insight-api/version" 304 - 0.925 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36" 
+[2018-03-28T14:57:10.689Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 "GET /insight-api/sync" 200 115 41.948 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36" 
+[2018-03-28T14:57:10.690Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 "GET /insight-api/status?q=getInfo" 200 206 32.031 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36" 
+[2018-03-28T14:57:10.751Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 "GET /insight-api/currency" 200 39 102.641 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36" 
+[2018-03-28T14:57:10.843Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 "GET /insight-api/blocks?limit=5" 400 554 3.814 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36" 
+[2018-03-28T14:57:10.998Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 "GET /insight-api/peer" 304 - 0.434 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36" 
+[2018-03-28T14:57:11.150Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 web socket subscribe: inv
+[2018-03-28T14:57:11.347Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 web socket subscribe: sync
+[2018-03-28T14:57:11.348Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 web socket subscribe: inv
+[2018-03-28T14:57:11.348Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 web socket subscribe: sync
+[2018-03-28T14:57:11.348Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 web socket subscribe: inv
+[2018-03-28T14:57:11.349Z] [34m[3minfo:[23m[39m ::ffff:180.151.232.90 web socket subscribe: sync
+Error: Cannot obtain a lock on data directory /root/insight/secondNode/data. 3DCoin Core is probably already running.
